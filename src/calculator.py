@@ -23,7 +23,7 @@ class Calculator:
         """Subtract b from a. Example: subtract(10, 3) should return 7."""
         # BUG: The operands are in the wrong order.
         # b - a gives -7 when we want 10 - 3 = 7.
-        result = a - b
+        result = b - a
         self._record('subtract', a, b, result)
         return result
 
